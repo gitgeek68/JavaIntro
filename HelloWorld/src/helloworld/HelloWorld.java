@@ -5,6 +5,7 @@
  */
 package helloworld;
 
+import java.awt.Color;
 import javax.swing.JFrame;//C# = using System.Windows.Forms
 
 public class HelloWorld 
@@ -27,6 +28,8 @@ static Window fenetre;//declaration de la viariable
 //        //centre la fenetre par rappor à l'ecran
 //        
 //        window.setTitle("Je suis une fougère");
+
+        fenetre.setBackgroundColor(Color.BLUE);
         
         
     }
